@@ -117,9 +117,9 @@ Error: expected ')'
 
 >> abc + 2.
 Error: unknown variable: abc
----
+```
 
-## 📁 Files
+## Files
 
 ```text
 calculator.pl     -- Prolog source code
@@ -128,7 +128,7 @@ README.md         -- This documentation
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Input expressions must be terminated with a period (`.`), as per standard Prolog syntax.
 - The program uses DCG rules to parse the expressions and recursively evaluate them.
