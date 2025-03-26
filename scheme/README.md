@@ -17,7 +17,6 @@ This directory contains the **Scheme implementation** of a simple calculator int
 - Error detection:
   - Division by zero
   - Undefined variables
-  - Unmatched or missing parentheses
   - Invalid operators
 - Smart result display:
   - Integers are shown without decimals
