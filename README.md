@@ -5,14 +5,6 @@
 
 This repository contains simple calculator interpreter implementations in **five different programming languages**, developed as part of the Programming Languages course assignment.
 
-Each interpreter supports:
-- Basic arithmetic operations (`+`, `-`, `*`, `/`)
-- Parentheses and operator precedence
-- Variable assignment
-- Floating-point number support
-- Error handling (invalid input, division by zero, etc.)
-
----
 
 ## Project Structure
 
