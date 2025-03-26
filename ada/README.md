@@ -61,7 +61,7 @@ gnatmake calculator.adb
 
 ## 💻 Usage Examples
 
-text
+```text
 >> 3 + 5
 = 8
 
@@ -83,12 +83,19 @@ y = 8.5
 >> z = (x + y) / 2
 z = 6.75
 
+>> z + x * 3 - (2 ^ 2)
+= 19.75
+
+>> big = ((5 + 3) * (2 + 6)) / (4 - 2)
+big = 32
+
+```
 
 ---
 
 ## ❗ Error Handling Examples
 
-text
+```text
 >> 10 / 0
 Error: Division by zero.
 
@@ -98,9 +105,9 @@ Error: expected ')'
 >> a + 2
 Error: unknown variable 'a'
 
->> 3 + *
-Error: Unexpected character '*'
-
+>> 3 + %
+Error: Unexpected character '%'
+```
 
 If an error is detected, no result is shown. The calculator remains usable for the next input.
 
@@ -108,10 +115,10 @@ If an error is detected, no result is shown. The calculator remains usable for t
 
 ## 📁 Files
 
-text
+```text
 calculator.adb    -- Source code
 README.md         -- Documentation (this file)
-
+```
 
 ---
 
@@ -120,5 +127,3 @@ README.md         -- Documentation (this file)
 - The parser uses **recursive descent** technique.
 - Expression tree is built and evaluated recursively.
 - Variables are stored in a hash map using Ada’s built-in containers.
-
----
