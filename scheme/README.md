@@ -26,7 +26,7 @@ This directory contains the **Scheme implementation** of a simple calculator int
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 - **Chez Scheme** interpreter (or another R6RS/R7RS-compatible Scheme)
 
