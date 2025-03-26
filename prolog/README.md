@@ -68,8 +68,8 @@ swipl
 
 ## Usage Examples
 
-- Always end your expressions with a **period (`.`)**.
--  Sometimes, especially when typing long or nested expressions involving parentheses, some characters may **not appear visibly** on the terminal while typing. This is a display quirk, but your input is **still correctly received** and evaluated.
+❗❗❗Always end your expressions with a **period (`.`)**.
+❗❗❗Sometimes, especially when typing long or nested expressions involving parentheses, some characters may **not appear visibly** on the terminal while typing. This is a display quirk, but your input is **still correctly received** and evaluated.
 
 
 ```text
