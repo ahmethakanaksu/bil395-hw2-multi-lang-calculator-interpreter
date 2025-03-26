@@ -88,6 +88,18 @@ z = 11.25
 
 >> z * (x - 5)
 Result: 56.25
+
+>> a = ((5 + 3) * (2 + 6)) / (4 - 2)
+a = 32
+
+>> b = ((3 + 5 * 2) ^ 2 - (4 / 2)) * (1 + 1)
+b = 334
+
+>> ((x + y) ^ 2 - (z * 4)) / (3 + 1)
+Result: 115.3125
+
+>> ((2 + 3.5) * (4 - 1)) ^ 2
+Result: 272.25
 ```
 
 ---
@@ -96,16 +108,16 @@ Result: 56.25
 
 ```text
 >> 10 / 0
-Error: Division by zero
+Error: Division by zero!
 
->> 3 + *
-Error: Invalid syntax
+>> 3 + * 7
+Syntax Error: Insufficient values.
 
->> unknown + 2
-Error: Undefined variable 'unknown'
+>> abc + 2
+Unknown variable: ABC
 
->> 123abc + 2
-Error: Invalid token: 123abc
+>> 5 % 7
+Syntax Error: Invalid token '%'
 ```
 
 > The interpreter will not print a result if an error occurs, and it remains usable.
